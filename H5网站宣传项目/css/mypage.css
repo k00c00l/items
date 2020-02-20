@@ -1,0 +1,451 @@
+html, body, section {
+    min-width: 1000px;
+    min-height: 600px;
+}
+
+/*商城入口start*/
+.go {
+    position: fixed;
+    top: 5%;
+    right: 5%;
+    z-index: 1;
+    animation: rotate 3s infinite;
+}
+@keyframes rotate {
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+/*商城入口end*/
+
+/*第一屏start*/
+.section1 {
+    background: #fadd67 url(../images/t1fpyqfltdxxaiulhh-990-600.png) no-repeat center bottom;
+}
+.flyBoat {
+    position: absolute;
+    top: 10%;
+    right: 20%;
+}
+.sofa {
+    position: absolute;
+    left: 50%;
+    margin-left: -200px;
+    bottom: 335px;
+}
+.goods {
+    position: absolute;
+    left: 50%;
+    margin-left: -400px;
+    bottom: 150px;
+}
+/*第一屏end*/
+
+/*第二屏start*/
+.section2 {
+    background: #84a2d4 url(../images/t1zdgpfi8exxca6rfn-2000-600.png) no-repeat center bottom;
+    z-index: 3;
+}
+.headerwords
+,.headerwords2 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 550px;
+}
+.headerwords2 {
+    opacity: 0;
+}
+.computer {
+    width: 990px;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    position: absolute;
+}
+.search {
+    width: 222px;
+    height: 45px;
+    background: url(../images/search.png) no-repeat;
+    position: absolute;
+    right: 0;
+    bottom: 300px;
+    display: none;
+}
+.search-words {
+    position: absolute;
+    right: 32px;
+    top: 5px;
+    opacity: 0;
+}
+.search-hide {
+    position: absolute;
+    bottom: 300px;
+    right: 370px;
+    display: none;
+}
+.sofas {
+    height: 100px;
+    position: absolute;
+    right: 270px;
+    bottom: 217px;
+    display: none;
+}
+.sofa2 {
+    position: absolute;
+    width: 100px;
+    bottom: 345px;
+    left: 395px;
+    display: none;
+    z-index: 10;
+}
+.cover {
+    position: absolute;
+    right: 495px;
+    bottom: 334px;
+    width: 102px;
+    height: 90px;
+    z-index: 5;
+    background-color: #fff;
+    display: none;
+}
+/*第二屏end*/
+
+/*第三屏start*/
+.section3 {
+    background: #ef674d;
+    z-index: 2;
+}
+.main {
+    position: absolute;
+    width: 700px;
+    height: 500px;
+    background: url(../images/main.png) no-repeat center center;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 50px;
+}
+.select {
+    position: absolute;
+    width: 300px;
+    height: 250px;
+    bottom: 0;
+    right: 8px;
+}
+.img {
+    position: absolute;
+    top: 0;
+}
+.img-01-a {
+    opacity: 0;
+}
+.btn-01-a {
+    opacity: 0;
+}
+.btn {
+    position: absolute;
+    bottom: 10px;
+}
+/* .sofa3, */
+.t1f {
+    position: absolute;
+    left: 115px;
+    bottom: 200px;
+    display: none;
+}
+/*第三屏end*/
+
+/*第四屏end*/
+.section4 {
+    background: #fed url(../images/t1iresfnxaxxca6rfn-2000-600.png) no-repeat center bottom;
+}
+.cloud {
+    position: absolute;
+    bottom: 550px;
+    left: 50%;
+}
+.word {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 500px;
+}
+.words-04-a {
+    opacity: 0;
+}
+.shoppingcar {
+    position: absolute;
+    width: 500px;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+.car-img {
+    position: absolute;
+    bottom: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+    display: none;
+}
+.note {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 180px;
+    opacity: 0;
+}
+.note-img {
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    opacity: 0;
+}
+/*第四屏end*/
+
+/*第五屏start*/
+.section5 {
+    background: #d04759 url(../images/t1yisqfa4exxa3gmkg-2000-1500.png);
+    /* overflow: hidden; */
+    perspective: 500;
+    -webkit-perspective: 500;
+    z-index: 1;
+}
+.words-05 {
+    position: absolute;
+    left: 20%;
+    top: 10%;
+}
+.card-05 {
+    position: absolute;
+    left: 20%;
+    bottom: 200px;
+    z-index: 10;
+}
+.order-05 {
+    position: absolute;
+    left: 27%;
+    bottom: 270px;
+}
+.t1f-05 {
+    position: absolute;
+    bottom: 800px;
+    left: 25%;
+    display: none;
+}
+.mouse {
+    position: absolute;
+    right: 20%;
+    bottom: 200px;
+}
+.mouse-05-a {
+    opacity: 0;
+}
+.hand-05 {
+    position: absolute;
+    right: 24%;
+    bottom: -375px;
+}
+.overFlow {/* 解决超出bug */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+/*第五屏end*/
+
+/*第六屏start*/
+.section6 {
+    background: #84d9ed url(../images/t1dvj.fn0gxxb0_fua-2500-600.png) no-repeat 25% 100%;
+}
+.box-06 {
+    position: absolute;
+    left: 123px;
+    bottom: 500px;
+    z-index: 5;
+}
+.car-06 {
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    z-index: 10;
+}
+.cloud-06 {
+    position: absolute;
+    left: 50%;
+    bottom: 550px;
+    animation: cloud6 30s linear;
+}
+@keyframes cloud6 {
+    50% {
+        left: 10%;
+    }
+}
+.pop-06 {
+    position: absolute;
+    bottom: 119px;
+    right: 48%;
+    opacity: 0;
+    z-index: 1;
+}
+.man-06 {
+    position: absolute;
+    right: 50%;
+    bottom: 10px;
+    height: 90px;
+}
+.women-06 {
+    position: absolute;
+    right: 315px;
+    bottom: 116px;
+    height: 123px;
+    display: none;
+    z-index: 1;
+}
+.door-06 {
+    position: absolute;
+    right: 285px;
+    bottom: 116px;
+    opacity: 0;
+}
+.pop-07 {
+    position: absolute;
+    right: 445px;
+    bottom: 400px;
+    z-index: 1;
+    opacity: 0;
+}
+.words-06-a {
+    position: absolute;
+    left: 10%;
+    bottom: 479px;
+    opacity: 0;
+}
+/*第六屏end*/
+
+/*第七屏start*/
+.section7 {
+    background: #8ac060 url(../images/t1wf1tfctaxxa3gmkg-2000-1500.png) no-repeat 50% 100%;
+}
+.star {
+    position: absolute;
+    left: 50%;
+    bottom: 439px;
+    margin-left: -295px;
+    width: 0;
+    height: 20px;
+    background: url(../images/star.png) no-repeat;
+    background-size: 97px;
+}
+.good-07 {
+    position: absolute;
+    bottom: 382px;
+    left: 50%;
+    margin-left: -289px;
+    opacity: 0;
+}
+/*第七屏end*/
+
+/*第八屏start*/
+.section8 {
+    background: url(../images/ksgw.png);
+}
+.beginShopping {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 365px;
+}
+.btn-08-a {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: none;
+}
+.again {
+    position: absolute;
+    bottom: 403px;
+    left: 50%;
+    margin-left: 240px;
+    cursor: pointer;
+}
+.hand-08 {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/*第八屏end*/
+
+/* 继续往下start */
+.next {
+    position: fixed;
+    bottom: 100px;
+    right: 10%;
+    z-index: 99;
+}
+/* 继续往下end */
+.nextUpdown {
+    animation: next 2s linear infinite;
+}
+@keyframes next {
+    50% {
+        bottom: 20px;
+    }
+}
+/*第一屏动画start*/
+.flyBoatUpdown {
+    animation: flyBoat 3s linear infinite;/*上下动画*/
+}
+.sofaUpdown {
+    animation: flySofa 2.5s linear infinite;
+}
+@keyframes flyBoat {
+    50% {
+        top: 20%;
+    }
+    100% {
+        top: 10%;
+    }
+}
+@keyframes flySofa {
+    50% {
+        bottom: 360px;
+    }
+    100% {
+        bottom: 335px;
+    }
+}
+/*第一屏动画end*/
+
+/*第四屏动画*/
+.cloud-back1 {
+    animation: cloud 60s linear infinite;
+}
+@keyframes cloud {
+    50% {
+        left: -10%;
+    }
+    100% {
+        left: 50%;
+    }
+}
+/*第五屏动画*/
+.words-05-a {
+    animation: words5 3s;
+}
+@keyframes words5 {
+    50% {
+        opacity: 0.5;
+        transform: translateZ(100px) rotateY(180deg);
+    }
+    100% {
+        opacity: 1;
+        transform: translateZ(0) rotateY(360deg);
+    }
+}
