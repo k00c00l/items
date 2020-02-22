@@ -1,0 +1,226 @@
+/* 设置自适应宽度 */
+.jd_layout {
+    width: 100%;
+    max-width: 640px;
+    min-width: 320px;
+    background-color: #eee;
+    margin: 0 auto;
+}
+/* 顶部搜索 */
+.jd_search {
+    width: 100%;
+    height: 40px;
+    max-width: 640px;
+    background: rgba(233, 35, 34, 0);
+    position: fixed;
+    z-index: 999;
+}
+/* logo */
+.jd_logo {
+    width: 56px;
+    height: 30px;
+    background: url(../images/jd-sprites.png) no-repeat;
+    background-size: 200px 200px;
+    background-position: 0 -108px;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+}
+.search_box {
+    width: 100%;
+    height: 100%;
+    padding-left: 76px;
+    padding-right: 50px;
+}
+/* 搜索图标 */
+.search_logo {
+    display: block;
+    width: 27px;
+    height: 23px;
+    background: url(../images/jd-sprites.png);
+    background-size: 200px 200px;
+    background-position: -56px -108px;
+    position: absolute;
+    top: 9px;
+    left: 80px;
+}
+/* 搜索框 */
+.btn_search {
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+    border-radius: 15px;
+    color: #666;
+    padding-left: 30px;
+}
+/* 登录字样 */
+.jd_login {
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 0;
+    right: 0;
+    color: #FFF;
+    line-height: 40px;
+}
+
+/* 轮播图 */
+.jd_banner {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.banners {
+    width: 800%;
+    position: relative;
+}
+.banners li {
+    width: 12.5%;
+    float: left;
+}
+.banners li img {
+    width: 100%;
+    display: block;/* 消除默认基线对齐方式 */
+}
+.points {
+    position: absolute;
+    width: 128px;
+    height: 10px;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.points li {
+    width: 6px;
+    height: 6px;
+    float: left;
+    margin-left: 10px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+.points li:nth-child(1) {
+    margin-left: 0;/* 去除圆点左边的边距 */
+}
+.points .active {
+    background-color: #fff;
+}
+
+/* 导航栏 */
+.jd_nav {
+    width: 100%;
+    padding: 10px 0;
+    background-color: #fff;
+}
+.jd_nav li {
+    float: left;
+    width: 25%;
+    text-align: center;
+    margin-top: 5px;
+}
+.jd_nav li img {
+    width: 50px;
+}
+.jd_nav li p {
+    line-height: 25px;
+}
+
+/* 产品区 */
+.jd_products {
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 1px 1px 1px #ccc;
+    margin-top: 10px;
+}
+.jd_title {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid #ccc;
+    color: #666;
+}
+h3 {
+    padding-left: 30px;
+    position: relative;
+}
+h3:before {
+    content: "";
+    position: absolute;
+    height: 12px;
+    width: 3px;
+    background-color: #e92322;
+    top: 10px;
+    left: 22px;
+}
+/* 产品区内公共样式 */
+.a_50 {
+    width: 50%;
+    display: block;
+}
+.img_50 {
+    width: 100%;
+    display: block;
+}
+.b_bottom {
+    border-bottom: 1px solid #ccc;
+}
+.b_left {
+    border-left: 1px solid #ccc;
+}
+.b_right {
+    border-right: 1px solid #ccc;
+}
+/* 产品区内公共样式 */
+.margin_left10 {
+    margin-left: 10px;
+}
+.jd_miaosha {
+    color: #e92322;
+}
+.jd_sk .jd_title {
+    border-bottom: none;
+}
+.jd_miaosha_icon {
+    width: 16px;
+    height: 20px;
+    background: url(../uploads/seckill-icon.png);
+    background-size: 16px 20px;
+    margin-top: 3px;
+}
+.timer span {
+    display: inline-block;
+    width: 13px;
+    height: 18px;
+    line-height: 18px;
+    color: #FFF;
+    background-color: #000;
+    text-align: center;
+}
+.timer span:nth-child(3) {
+    width: 6px;
+    color: #000;
+    background-color: transparent;
+}
+.timer span:nth-child(6) {
+    width: 6px;
+    color: #000;
+    background-color: transparent;
+}
+.moresk {
+    margin-right: 10px;
+}
+.sk_goods {
+    padding: 20px;
+}
+.sk_goods ul {
+    width: 100%;
+}
+.sk_goods ul li {
+    width: 33.33%;
+    float: left;
+    text-align: center;
+}
+.sk_goods li img {
+    width: 60%;
+    display: inline-block;
+}
