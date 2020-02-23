@@ -1,0 +1,132 @@
+html,body {
+    width: 100%;
+    height: 100%;
+}
+/* 分类布局 */
+.sort_layout {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin: 0 auto;
+}
+
+/* 头部搜索 */
+.header {
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid #ccc;
+    background-color: #eee;
+    position: absolute;
+}
+/* 两侧icon图标样式 */
+.icon {
+    width: 49px;
+    height: 49px;
+    position: absolute;
+    top: 0;
+    background: url(../images/jd-sprites.png) no-repeat;
+    background-size: 200px 200px;
+    padding: 14px;
+    background-origin: content-box;
+    background-clip: content-box;
+}
+/* 左侧icon特有 */
+.back_icon {
+    left: 0;
+    background-position: -20px 0;
+}
+/* 搜索框盒子 */
+.search_box {
+    width: 100%;
+    height: 100%;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+/* 搜索框 */
+.txtSearch {
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+/* 右侧icon特有 */
+.sort_icon {
+    right: 0;
+    background-position: -60px 0;
+}
+/* 头部搜索end */
+
+.content {
+    width: 100%;
+    height: 100%;
+    padding-top: 50px;
+}
+/* 左侧类目 */
+.left {
+    width: 100px;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+.left ul {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.left ul li {
+    height: 50px;
+    width: 100%;
+}
+.left li.active a {
+    background-color: #fff;
+    border-right: none;
+    border-bottom: none;
+    color: #e92322;
+}
+.left li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 50px;
+    text-align: center;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    background-color: #eee;
+}
+/* 左侧类目end */
+/* 右侧类目 */
+.right {
+    margin-left: 100px;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+.rImg {
+    width: 100%;
+    display: block;
+}
+.rImg img {
+    width: 100%;
+    display: block;/* 去除基线 */
+}
+.right h3 {
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.hotSort {
+    width: 100%;
+    overflow: hidden;
+    flex: 1;
+}
+.hotSort li {
+    width: 33.33%;
+    float: left;
+    text-align: center;
+}
+/* 右侧类目end */
